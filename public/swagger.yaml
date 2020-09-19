@@ -1,0 +1,75 @@
+openapi: 3.0.3
+info:
+  title: Node Firebase API
+  version: 1.0.0
+servers:
+  - url: https://us-central1-fir-boilerplate-92e4c.cloudfunctions.net/api
+    description: Development server
+components:
+  schemas:
+    Document:
+      type: object
+      properties:
+        collectionName:
+          type: string
+        documentName:
+          type: string
+        documentValue:
+          type: object
+    Documents:
+      type: array
+      items:
+        $ref: "#/components/schemas/Document"
+  parameters:
+    collection:
+      name: collectionName
+      in: query
+      required: true
+      schema:
+        type: string
+    document:
+      name: documentName
+      in: query
+      required: true
+      schema:
+        type: string
+paths:
+  /read-doc:
+    get:
+      description: Reads a document
+      parameters:
+        - $ref: "#/components/parameters/collection"
+        - $ref: "#/components/parameters/document"
+      responses:
+        "200":
+          description: success
+        "500":
+          description: failure
+  /write-doc:
+    post:
+      summary: Write a document
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Document"
+      responses:
+        "200":
+          description: success
+        "500":
+          description: failure
+  /write-docs:
+    post:
+      summary: Write array of documents
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Documents"
+      responses:
+        "200":
+          description: success
+        "500":
+          description: failure
