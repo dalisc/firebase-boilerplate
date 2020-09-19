@@ -69,73 +69,73 @@ https://console.firebase.google.com/
 
 **Step 1**
 
-<img src='./assets/firebase-create.png' width=300/>
+<img src='./assets/firebase-create.png' width=400/>
 
 Click `Add Project`
 
 **Step 2**
 
-<img src='./assets/name.png' width = 400/>
+<img src='./assets/name.png' width = 600/>
 
 Name your project
 
 **Step 3**
 
-<img src='./assets/analytics-setup.png' width = 400/>
+<img src='./assets/analytics-setup.png' width = 800/>
 
 Click `Continue`
 
 **Step 4**
 
-<img src='./assets/complete-create.png' width=400/>
+<img src='./assets/complete-create.png' width=800/>
 
 Select `Default Account for Firebase` and Click `Create Proeject`
 
 **Step 5**
 
-<img src='./assets/ready.png' width=300/>
+<img src='./assets/ready.png' width=600/>
 
 Click `Continue`
 
 **Step 6**
 
-<img src='./assets/firestore.png' width=600/>
+<img src='./assets/firestore.png' width=800/>
 
 Select `Cloud Firestore` from the sidebar and Click `Create Database`
 
 **Step 7**
 
-<img src='./assets/rules.png' width=500/>
+<img src='./assets/rules.png' width=800/>
 
 These are the security rules for the db, just Click `Next`
 
 **Step 8**
 
-<img src='./assets/location.png' width=500/>
+<img src='./assets/location.png' width=800/>
 
 No need to change the location, just Click `Next`
 
 **Step 9**
 
-<img src='./assets/empty.png' width=500/>
+<img src='./assets/empty.png' width=800/>
 
 Your Cloud Firestore has been initialized
 
 **Step 10**
 
-<img src='./assets/functions.png' width=600/>
+<img src='./assets/functions.png' width=800/>
 
 Select `Functions` from the sidebar and Click `Get Started`
 
 **Step 10**
 
-<img src='./assets/firebasetools.png' width=500/>
+<img src='./assets/firebasetools.png' width=800/>
 
 No need to execute the above command as you've already installed `fiebase-tools`, just Click `Continue`
 
 **Step 11**
 
-<img src='./assets/ignore.png' width=500/>
+<img src='./assets/ignore.png' width=800/>
 
 No need to execute these commands as you'll be cloning the firebase-boilerplate repository which is already initialized, just Click `Finish`
 
@@ -145,7 +145,7 @@ No need to execute these commands as you'll be cloning the firebase-boilerplate 
 
 Visit https://github.com/cfg-workshop/firebase-boilerplate
 
-<img src='./assets/clone.png' width=600/>
+<img src='./assets/clone.png' width=800/>
 
 Click `Code` and copy the HTTPS url
 
@@ -177,7 +177,7 @@ firebase login
 
 Example:
 
-<img src='./assets/example.png' height=80/>
+<img src='./assets/example.png' width=800/>
 
 ### Deploy your server
 
@@ -191,7 +191,7 @@ Your server should now be online.
 
 You can find the url of your server by visiting your Firebase Functions Dashboard
 
-<img src='./assets/dashboard.png' height=150/>
+<img src='./assets/dashboard.png' width=1000/>
 
 ## Conclusion
 
