@@ -2,9 +2,6 @@ openapi: 3.0.3
 info:
   title: Node Firebase API
   version: 1.0.0
-servers:
-  - url: https://us-central1-fir-boilerplate-92e4c.cloudfunctions.net/api
-    description: Development server
 components:
   schemas:
     Document:
