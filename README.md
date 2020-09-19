@@ -105,19 +105,19 @@ Select `Cloud Firestore` from the sidebar and Click `Create Database`
 
 **Step 7**
 
-<img src='./assets/rules.png' width=300/>
+<img src='./assets/rules.png' width=500/>
 
 These are the security rules for the db, just Click `Next`
 
 **Step 8**
 
-<img src='./assets/location.png' width=300/>
+<img src='./assets/location.png' width=500/>
 
 No need to change the location, just Click `Next`
 
 **Step 9**
 
-<img src='./assets/empty.png' width=300/>
+<img src='./assets/empty.png' width=500/>
 
 Your Cloud Firestore has been initialized
 
@@ -129,13 +129,13 @@ Select `Functions` from the sidebar and Click `Get Started`
 
 **Step 10**
 
-<img src='./assets/firebasetools.png' width=300/>
+<img src='./assets/firebasetools.png' width=500/>
 
 No need to execute the above command as you've already installed `fiebase-tools`, just Click `Continue`
 
 **Step 11**
 
-<img src='./assets/ignore.png' width=300/>
+<img src='./assets/ignore.png' width=500/>
 
 No need to execute these commands as you'll be cloning the firebase-boilerplate repository which is already initialized, just Click `Finish`
 
