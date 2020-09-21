@@ -169,7 +169,13 @@ Example:
 
 ### Deploy your server
 
-Run the following command
+First let's make sure that all dependencies are installed. Navigate to the `functions/` folder in your terminal and run the following command
+
+```
+npm install
+```
+
+Now you can deploy by running the following command
 
 ```
 firebase deploy
