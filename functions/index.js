@@ -15,10 +15,10 @@ app.get("/", (req, res) => {
   return res.status(200).send("Hello World!");
 });
 
-app.get("/read-doc", async (req, res) => {});
-
 app.post("/write-doc", async (req, res) => {});
 
 app.post("/write-docs", async (req, res) => {});
+
+app.get("/read-doc", async (req, res) => {});
 
 exports.api = functions.https.onRequest(app);
