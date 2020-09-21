@@ -121,24 +121,6 @@ No need to change the location, just Click `Next`
 
 Your Cloud Firestore has been initialized
 
-**Step 10**
-
-<img src='./assets/functions.png' width=800/>
-
-Select `Functions` from the sidebar and Click `Get Started`
-
-**Step 10**
-
-<img src='./assets/firebasetools.png' width=800/>
-
-No need to execute the above command as you've already installed `fiebase-tools`, just Click `Continue`
-
-**Step 11**
-
-<img src='./assets/ignore.png' width=800/>
-
-No need to execute these commands as you'll be cloning the firebase-boilerplate repository which is already initialized, just Click `Finish`
-
 ## Deploying "Hello World" Backend
 
 ### Clone Boilerplate Repository
@@ -149,6 +131,8 @@ Visit https://github.com/cfg-workshop/firebase-boilerplate
 
 Click `Code` and copy the HTTPS url
 
+Pick a workspace for your project and open a terminal in your workspace directory
+
 Then, run the following command in your workspace
 
 ```
@@ -157,7 +141,11 @@ git clone url-you-just-copied
 
 ### Connect Codebase to Firebase Project
 
-After cloning the project, you'll see many files such as `.firebaserc` `.gitignore` ...(more) and a `functions/` folder
+After cloning the project, you'll see many files such as `.firebaserc` `.gitignore` ...(more) and folders such as `assets/`, `public/` and `functions/`.
+
+- `assets/` contains the images you see in this readme, so you can just ignore it
+- `public/` contains the static website that we will be using as our documentation and api playground
+- `functions/` contains your backend server
 
 To connect this codebase to your own firebase project run the following command in your workspace
 
@@ -187,11 +175,13 @@ Run the following command
 firebase deploy
 ```
 
-Your server should now be online.
+If the deployment was successful, you will see something like this in your terminal. The URLs you see will be different as it is dependent on your personal firebase project
 
-You can find the url of your server by visiting your Firebase Functions Dashboard
+<img src='./assets/deploy.png' width=800/>
 
-<img src='./assets/dashboard.png' width=1000/>
+`Project Console` is the console for your backend server. Over here you can see the logs and usage statistics of your server
+
+`Hosting URL` is the website where your backend documentation and api playground is hosted. The API playground would not work right now, as the api is not yet implemented in this boilerplate. We will work on this together during the workshop
 
 ## Conclusion
 
