@@ -189,6 +189,28 @@ If the deployment was successful, you will see something like this in your termi
 
 `Hosting URL` is the website where your backend documentation and api playground is hosted. The API playground would not work right now, as the api is not yet implemented in this boilerplate. We will work on this together during the workshop
 
+### Running your server without deploying
+
+When debugging, you might find it very tedious to keep deploying after every change. You might also not want to manipulate your database when testing functions which would behave unexpectedly.
+
+So when you are actively developing and testing, we recommend you to use firebase's emulators. This runs your server and documentation website on your localhost and creates a local firestore which you can mess around with.
+
+To use the emulators, run the following command
+
+```
+firebase emulators:start
+```
+
+If the command was sucessful, you should see something like this
+
+<img src='./assets/emulators.png' width=800/>
+
+`Functions` is where your backend server is located
+
+`Firestore` is our test database
+
+`Hosting` is where our documentation and api playground is located
+
 ## Conclusion
 
 Congrats, you're done! That's all the pre-work you need for the NodeJS and Firebase Workshop
