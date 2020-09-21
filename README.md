@@ -113,7 +113,7 @@ These are the security rules for the db, just Click `Next`
 
 <img src='./assets/location.png' width=800/>
 
-No need to change the location, just Click `Next`
+No need to change the location, just Click `Enable`
 
 **Step 9**
 
