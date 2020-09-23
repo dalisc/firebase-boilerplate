@@ -125,18 +125,12 @@ Your Cloud Firestore has been initialized
 
 ### Clone Boilerplate Repository
 
-Visit https://github.com/cfg-workshop/firebase-boilerplate
-
-<img src='./assets/clone.png' width=800/>
-
-Click `Code` and copy the HTTPS url
-
 Pick a workspace for your project and open a terminal in your workspace directory
 
 Then, run the following command in your workspace
 
 ```
-git clone url-you-just-copied
+git clone https://github.com/cfg-workshop/firebase-boilerplate.git
 ```
 
 ### Connect Codebase to Firebase Project
@@ -200,6 +194,8 @@ To use the emulators, run the following command
 ```
 firebase emulators:start
 ```
+
+_Note: Emulators require Java to be installed in your machine. If you don't already have it, you can find installation instructions here https://www.java.com/en/download/help/download_options.xml_
 
 If the command was sucessful, you should see something like this
 
