@@ -16,9 +16,10 @@ app.get("/", (req, res) => {
 });
 
 app.post("/write-doc", async (req, res) => {
-  // TODO: create document reference
+  const { collection, documentId, documentValue } = req.body;
+  const docRef = db.collection(collection).doc(documentId);
   try {
-    // TODO: write to database
+    const r = await docRef.set(documentValue);
     console.log("Write Success", r);
     return res.status(200).end();
   } catch (e) {
@@ -27,23 +28,11 @@ app.post("/write-doc", async (req, res) => {
   }
 });
 
-app.post("/write-docs", async (req, res) => {
-  const { collection, documents } = req.body;
-  // TODO: Create batch transaction and document refs
-  try {
-    // TODO: write to database
-    console.log("Batch Write Success", r);
-    return res.status(200).end();
-  } catch (e) {
-    console.error("Batch Write Failure", e);
-    return res.status(500).end();
-  }
-});
-
 app.get("/read-doc", async (req, res) => {
-  // TODO: create document reference
+  const { collection, documentId } = req.query;
+  const docRef = db.collection(collection).doc(documentId);
   try {
-    // TODO: read from database
+    const r = await docRef.get();
     console.log("Read success", r);
     return res.status(200).send({
       name: r.id,

@@ -7,25 +7,21 @@ components:
     Document:
       type: object
       properties:
-        collectionName:
+        collection:
           type: string
-        documentName:
+        documentId:
           type: string
         documentValue:
           type: object
-    Documents:
-      type: array
-      items:
-        $ref: "#/components/schemas/Document"
   parameters:
     collection:
-      name: collectionName
+      name: collection
       in: query
       required: true
       schema:
         type: string
-    document:
-      name: documentName
+    documentId:
+      name: documentId
       in: query
       required: true
       schema:
@@ -36,7 +32,7 @@ paths:
       description: Reads a document
       parameters:
         - $ref: "#/components/parameters/collection"
-        - $ref: "#/components/parameters/document"
+        - $ref: "#/components/parameters/documentId"
       responses:
         "200":
           description: success
@@ -51,20 +47,6 @@ paths:
           application/json:
             schema:
               $ref: "#/components/schemas/Document"
-      responses:
-        "200":
-          description: success
-        "500":
-          description: failure
-  /write-docs:
-    post:
-      summary: Write array of documents
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: "#/components/schemas/Documents"
       responses:
         "200":
           description: success

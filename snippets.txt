@@ -1,0 +1,21 @@
+{
+  "collection": "startups",
+  "documentId": "1",
+  "documentValue": {
+    "name": "waterbnb",
+    "description": "like airbnb, but only users have to verify they are a fish during sign-up",
+    "funding": 50000
+  }
+}
+
+{
+  "collection": "startups",
+  "documentId": "2",
+  "documentValue": {
+    "name": "dinder",
+    "description": "like tinder, but for dogs",
+    "funding": 10000
+  }
+}
+
+
