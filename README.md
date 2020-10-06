@@ -135,13 +135,13 @@ git clone https://github.com/cfg-workshop/firebase-boilerplate.git
 
 ### Connect Codebase to Firebase Project
 
-After cloning the project, you'll see many files such as `.firebaserc` `.gitignore` ...(more) and folders such as `assets/`, `public/` and `functions/`.
+After cloning the project, navigate to the `/firebase-boilerplate` folder, you'll see many files such as `.firebaserc` `.gitignore` ...(more) and folders such as `assets/`, `public/` and `functions/`.
 
 - `assets/` contains the images you see in this readme, so you can just ignore it
 - `public/` contains the static website that we will be using as our documentation and api playground
 - `functions/` contains your backend server
 
-To connect this codebase to your own firebase project run the following command in your workspace
+To connect this codebase to your own firebase project run the following command inside the `/firebase-boilerplate` directory
 
 ```
 firebase use --add
