@@ -177,6 +177,8 @@ firebase deploy
 
 If the deployment was successful, you will see something like this in your terminal. The URLs you see will be different as it is dependent on your personal firebase project
 
+If your deployment failed, make sure you've correctly added your project and set up the alias in the previous step. You should also check that you have created a Cloud Firestore in your Firebase console.
+
 <img src='./assets/deploy.png' width=800/>
 
 `Project Console` is the console for your backend server. Over here you can see the logs and usage statistics of your server
