@@ -198,7 +198,7 @@ firebase emulators:start
 ```
 
 _Note: Emulators require Java to be installed in your machine. If you don't already have it, you can find installation instructions here 
-https://www.java.com/en/download/manual.jsp
+https://www.java.com/en/download/manual.jsp_
 
 If the command was sucessful, you should see something like this
 
