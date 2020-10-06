@@ -219,5 +219,4 @@ If you're curious and want to read more on the tools we're using, you can visit 
 - Firebase Cloud Functions: https://firebase.google.com/docs/functions
 - Firebase Cloud Firestore: https://firebase.google.com/docs/firestore
 - Express Framework for NodeJS: https://expressjs.com/
-- Swagger UI Express: https://www.npmjs.com/package/swagger-ui-express
-- Swagger JSDoc: https://github.com/Surnet/swagger-jsdoc
+- Swagger UI: https://github.com/swagger-api/swagger-ui
