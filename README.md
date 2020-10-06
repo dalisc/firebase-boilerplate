@@ -177,13 +177,13 @@ firebase deploy
 
 If the deployment was successful, you will see something like this in your terminal. The URLs you see will be different as it is dependent on your personal firebase project
 
-If your deployment failed, make sure you've correctly added your project and set up the alias in the previous step. You should also check that you have created a Cloud Firestore in your Firebase console.
-
 <img src='./assets/deploy.png' width=800/>
 
 `Project Console` is the console for your backend server. Over here you can see the logs and usage statistics of your server
 
 `Hosting URL` is the website where your backend documentation and api playground is hosted. The API playground would not work right now, as the api is not yet implemented in this boilerplate. We will work on this together during the workshop
+
+If your deployment failed, make sure you've correctly added your project and set up the alias in the previous step. You should also check that you have created a Cloud Firestore in your Firebase console.
 
 ### Running your server without deploying
 
