@@ -197,7 +197,8 @@ To use the emulators, run the following command
 firebase emulators:start
 ```
 
-_Note: Emulators require Java to be installed in your machine. If you don't already have it, you can find installation instructions here https://www.java.com/en/download/help/download_options.xml_
+_Note: Emulators require Java to be installed in your machine. If you don't already have it, you can find installation instructions here 
+https://www.java.com/en/download/manual.jsp
 
 If the command was sucessful, you should see something like this
 
