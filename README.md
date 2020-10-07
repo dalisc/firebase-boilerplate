@@ -151,7 +151,9 @@ Select your `project-id` from the dropdown presented
 
 Create an alias called `default`
 
-If you face any issues, it may be because you're not logged in. Running the following command may help
+If `firebase` isn't a recognized command, make sure you have installed `firebase-tools` (instructions earlier in the readme)
+
+If you face any further issues, it may be because you're not logged in. Running the following command may help
 
 ```
 firebase login
